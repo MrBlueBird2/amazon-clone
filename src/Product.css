@@ -11,8 +11,8 @@
     min-width: 100px;
 
     background: white;
-    box-shadow: 10px 10px 10px rgb(211, 210, 210);
     z-index: 1;
+    transition: 0.5s;
 }
 
 .product > button {
@@ -44,4 +44,9 @@
 .product__rating {
     display: flex;
     margin-top: 5px;
+}
+
+.product:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px rgb(211, 210, 210);
 }
