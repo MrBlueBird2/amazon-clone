@@ -24,7 +24,7 @@ function Payment() {
     const [clientSecret, setClientSecret] = useState(true);
 
     useEffect(() => {
-        // generate the special stripe which allows us to change a customer
+        // Generate the special stripe which allows us to change a customer
         const getClientSecret = async () => {
             const response = await axios({
                 method: 'post',
