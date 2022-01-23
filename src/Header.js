@@ -33,6 +33,7 @@ function Header() {
                         </span>
                 </div>
                 </Link>
+                <Link to={'/orders'} style={{textDecoration: 'none',}}>
                 <div className="header__option">
                     <span className='header__optionLineThree'>
                         Returns
@@ -41,6 +42,7 @@ function Header() {
                         Orders
                     </span>
                 </div>
+                </Link>
                 <div className="header__option">
                     <span className='header__optionLineFive'>
                         Your
