@@ -48,6 +48,10 @@ function App() {
             <Payment />
           </Elements>
         </Route>
+        <Route path="/orders">
+          <Header />
+          <Home />
+        </Route>
         <Route path="/">
           <Header />
           <Home />
